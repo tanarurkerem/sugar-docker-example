@@ -7,7 +7,7 @@ web:
         - db
         - search        
     volumes:
-        - /Users/cedric/sugar-docker-example/data/web:/var/www/html
+        - ./data/web:/var/www/html
 db:
     container_name: db
     image: percona:5.6
